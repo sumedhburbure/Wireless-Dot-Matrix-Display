@@ -1,0 +1,1 @@
+This program contains initialization of usart 1 and usart 2 and whatever is sent to usart 1 is fed to usart 2 and whatever sent to usart 2 is sent back to usart1. This program was made to send at commants to esp01 via stm bluepill devboard.

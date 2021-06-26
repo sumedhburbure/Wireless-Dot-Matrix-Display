@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\comm_uart.o"
+".\objects\esp_uart.o"
+".\objects\bsp.o"
+".\objects\esp_app.o"
+".\objects\matrix_disp.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\non_blocking_uart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\non_blocking_uart.map" -o .\Objects\non_blocking_uart.axf
