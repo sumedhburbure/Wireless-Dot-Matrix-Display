@@ -7,7 +7,7 @@ You Can Watch the Working demo of the Project By clicking the Below Image:
 
 
 Block Diagram of Connections:
-
+![Block Diagram of Connections](https://github.com/sumedhburbure/Wireless-Dot-Matrix-Display/blob/main/ESP01-STM32-MatrixDotDisplay.png)
 
 ---------------------------
 ## Project Overview:
