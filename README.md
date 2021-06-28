@@ -5,6 +5,10 @@ You Can Watch the Working demo of the Project By clicking the Below Image:
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/lqELUlHfRbE/0.jpg)](http://www.youtube.com/watch?v=lqELUlHfRbE)
 
+
+Block Diagram of Connections:
+
+
 ---------------------------
 ## Project Overview:
 
