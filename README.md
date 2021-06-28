@@ -34,6 +34,7 @@ The library for communicating the ESP-01 via AT commands is written from scatch 
 
 #### STM32 BluePill:
 STM32 Bluepill Development uses STM32F103C8 micro-controller and is operated at it's default clock frequency. The micro-controller plays a key role in operating Dot Matrix Display, operating ESP-01 and handling user requests over TCP-IP. The micro-controller peripherals are written in register level programming to reduce the size of the code.
+The micro-controller also manages the browser part via uart to the ESP-01 . The micro-controller sends the HTML code to the browser and receives the user input from the browser via ESP-01.
 [Click Here to View STM32F103 Reference Manual](https://www.st.com/resource/en/reference_manual/cd00171190-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf)
 
 #### Dot-Matrix Display:
