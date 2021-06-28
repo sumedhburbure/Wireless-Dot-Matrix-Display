@@ -44,6 +44,9 @@ The micro-controller also manages the browser part via uart to the ESP-01 . The 
 #### Dot-Matrix Display:
 The Dot-Matrix Display is an 8x8 led matrix display which consumes 5v and has a custom interface somewhat similar to shift registers. The display is driven by the MAX7219 chip. The library to drive the led display is written by examining the datasheet. The font is written from scratch. Hence , only Capital Characters are supported , no numeric or small letters are supported as this is just for demonstration purpose. Scrolling effects enables the small display to show full words or sentences. The Display can be cascaded by adding more 8x8 Dot matrix display. [Click here to view the datasheet](https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf)
 
+#### Button
+Button is used to Toggle between two operational modes , namely Display Scrolling and User Input. On restart , the User Input mode runs where the micro-controller waits for the user to connect to web browser and send a string of characters. After User sends a string, pressing the button will enable Display Scrolling as shown in the youtube video attested at the beginning. 
+
 -------------------------
 
 Thank You! For any queries , please contact me on sumedhburbure@outlook.com.
